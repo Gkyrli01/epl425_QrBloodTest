@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QR Blood Test</string>
+    <string name="user"></string>
+    <string name="pass"></string>
+    <string name="infos">Below you can see your blood test results.You can also upload these information to our server.</string>
+
+</resources>

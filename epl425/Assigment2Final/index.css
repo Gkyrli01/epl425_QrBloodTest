@@ -1,0 +1,40 @@
+.CookTitle
+{
+  font-size: 30pt;
+  background: #3b5998;
+  background-blend-mode: lighten;
+  color:white;
+  text-align: center;
+  text-emphasis-color: transparent;
+  border: 3pt;
+  border-radius:46px 46px 2px 0px;
+  width: 100%;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+    from {opacity:1}
+    to {opacity:0.7;}
+
+}
+.myImg{
+animation-name: myImg1;
+animation-duration: 5s;
+}
+
+@keyframes myImg1 {
+    0%{content: url("granny1.png");}
+    20%{content:url("granny2.png");}
+    40%{content: url("granny3.png");}
+    70%{content: url("granny4.png");}
+    100%{content: url("granny5.png");}
+}
+
+.question{
+  background: #3b5998;
+  width: 100%;
+  color: white;
+}
